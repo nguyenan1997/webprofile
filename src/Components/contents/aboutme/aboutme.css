@@ -1,0 +1,61 @@
+.container-Aboutme{
+    display: flex;
+    gap: 150px;
+    padding: 50px 60px;
+    align-items: center;
+    background-color: rgb(37, 31, 31);
+    padding: 100px 100px;
+    justify-content: center;
+
+}
+
+.infor-Aboutme h1:nth-child(1){
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.infor-Aboutme span{
+    color: rgb(221, 29, 29);
+}
+
+.infor-Aboutme h4:nth-child(2){
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px 7px;
+    letter-spacing: 5px;
+}
+
+.infor-Aboutme p:nth-child(3){
+    letter-spacing: 3px;
+    margin: 30px 0;
+    color: rgb(181, 195, 206);
+}
+
+
+
+.container-Aboutme img {
+    width: 500px;
+    height: 500px;
+    border-radius: 100px;
+}
+
+.infor-Aboutme{
+    width: 50%;
+}
+
+.button-talk{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(230, 15, 15);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button-talk:hover{
+    background-color: rgb(56, 47, 47);
+    border: 1px solid black;
+}
+

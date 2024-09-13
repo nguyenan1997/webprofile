@@ -1,0 +1,20 @@
+.container-contact{
+    background-color: rgb(37, 31, 31);
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.container-contact button{
+    border: none;
+    font-size: 16px;
+    background-color: rgb(211, 25, 25);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.container-contact button:hover{
+    border: 1px solid #1f1d1d;
+    background-color: #584a4a;
+}
