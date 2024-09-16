@@ -1,11 +1,10 @@
 .container-Aboutme{
     display: flex;
-    gap: 150px;
-    padding: 50px 60px;
+    padding: 50px 100px;
     align-items: center;
     background-color: rgb(37, 31, 31);
-    padding: 100px 100px;
-    justify-content: center;
+    padding: 50px 100px;
+    justify-content: space-between;
 
 }
 

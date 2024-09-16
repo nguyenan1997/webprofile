@@ -1,11 +1,7 @@
 .list-header{
     display: flex;
     justify-content: space-between;
-    
-    gap: 400px;
     align-items: center;
-
-
 }
 
 .container-intro{
@@ -30,6 +26,19 @@ a{
     display: flex;
     justify-content: center;
     gap: 70px
+}
+.listInfor li{
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 7px;
+
+}
+.listInfor li:hover{
+    text-decoration: underline;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 7px;
+    transition: text-decoration 0.3s ease, transform 0.3s ease;
 }
 .list-header .logo{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

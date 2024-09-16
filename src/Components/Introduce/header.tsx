@@ -41,7 +41,7 @@ export const HeaderWeb = (): JSX.Element => {
           <li className="logo">MyProfile</li>
           <ul className="listInfor">
             {header.map((value, index) => {
-              return <li key={index}>{value}</li>;
+              return <a href="#" key={index}>{value}</a>;
             })}
           </ul>
           <li>

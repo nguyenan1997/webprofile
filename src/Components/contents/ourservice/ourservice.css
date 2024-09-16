@@ -1,5 +1,5 @@
 .container-service{
-    padding: 100px 0;
+    padding: 50px 100px;
 }
 .container-service>h1{
     text-align: center;
@@ -8,8 +8,8 @@
 }
 .list-card{
     display: flex;
-    justify-content: space-evenly;
-    gap: 50px;
+    justify-content: space-between;
+    
 }
 .container-service .list-card .card-service{
     width: 21%;
