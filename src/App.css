@@ -9,25 +9,123 @@
 
 /* Mobile devices (Small phones, 320px - 480px) */
 @media (max-width: 480px) {
-    /* Styles cho các điện thoại nhỏ */
+  .introduce h1 div{
+    font-size: 30px;
+  }
+  .list-header{
+    display: none !important
+  }
+  main img{
+    display: none;
+  }
+  .list-header .listInfor a{
+    font-size: 12px;
+    text-align: center;
+  }
+  .list-header .logo{
+    font-size: 20px !important
+  }
+  .container-Aboutme{
+    display: flex;
+    flex-direction: column;
+  }
+  .container-service{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-service{
+    height: auto !important
+  }
+  .container-footer{
+    padding: 0 !important
+  }
   }
   
   /* Mobile devices (Large phones, 481px - 767px) */
   @media (max-width: 767px) {
-    /* Styles cho các điện thoại lớn */
+    .introduce h1 div{
+      font-size: 30px;
+    }
+    main img{
+      display: none;
+    }
+    .list-header .listInfor a{
+      font-size: 12px;
+      text-align: center;
+    }
+    .list-header .logo{
+      font-size: 20px !important
+    }
+    .container-Aboutme{
+      display: flex;
+      flex-direction: column;
+    }
+    .container-service{
+      display: flex;
+      flex-direction: column;
+    }
+    .card-service{
+      height: auto !important
+    }
+    .container-footer{
+      padding: 0 !important
+    }
   }
   
   /* Tablets (768px - 1024px) */
   @media (min-width: 768px) and (max-width: 1024px) {
-    /* Styles cho các thiết bị máy tính bảng */
+    .introduce h1 div{
+      font-size: 30px;
+    }
+    main img{
+      width: 200px;
+      height: 200px;
+    }
+    .list-header .listInfor a{
+      font-size: 12px;
+      text-align: center;
+    }
+    .list-header .logo{
+      font-size: 20px !important
+    }
+    .container-Aboutme{
+      display: flex;
+      flex-direction: column;
+    }
+    .container-service{
+      display: flex;
+      flex-direction: column;
+    }
+    .card-service{
+      height: auto !important
+    }
+    .container-footer{
+      padding: 0 !important
+    }
   }
   
   /* Laptops (1025px - 1280px) */
   @media (min-width: 1025px) and (max-width: 1280px) {
-    /* Styles cho laptop */
-  }
-  
-  /* Desktops (1281px and up) */
-  @media (min-width: 1281px) {
-    /* Styles cho các màn hình lớn hơn (máy tính để bàn) */
+    .introduce h1 div {
+      font-size: 30px;
+    }
+    main img{
+      width: 200px;
+      height: 200px;
+    }
+    .container-Aboutme{
+      display: flex;
+      flex-direction: column;
+    }
+    .container-footer{
+      padding: 0 !important
+    }
+    .container-service{
+      display: flex;
+      flex-direction: column;
+    }
+    .card-service{
+      height: auto;
+    }
+    
   }
